@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body class=" ">
+    <!-- Navbar -->
+    <nav class="max-w-7xl mt-4 mx-auto">
+        <div class="navbar rounded-full px-14 p-4 shadow-xl  bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Courses</a></li>
+                        <li>
+                            <a>Parent</a>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+                <div class="flex gap-2">
+                    <img src="image/logo/Nav logo.svg" alt="">
+                    <p>
+                        <span class="text-xl text-[#43B14B]">Carers <br> ACADEMY</span> 
+                         
+                    </p>
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+
+                    <li class=" ">
+                        <details class="w-[100%]">
+                            <summary>Courses</summary>
+                            <ul class="p-2 w-full">
+                                <button class="btn flex  text-white rounded-full bg-[#43B14B]
+                                "><span>Explore Courses</span> <i class="fa-solid fa-arrow-right ml-8"></i></button>
+                               <div>
+
+                               </div>
+                               
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Resources</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class=" ">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner section -->
+    <section class="mt-16">
+        <div class="hero  ">
+            <div class="hero-content drop-shadow-2xl flex-col lg:flex-row-reverse">
+                <img src="image/banner Image/banner.svg" class=" drop-shadow-xl  rounded-lg " />
+                <div class="max-w-lg bg-white p-4">
+                    <h1 class="lg:text-5xl text-3xl text-center lg:text-left  font-bold"><span
+                            class="text-[#FF5757]">Empowering</span> Families with <span
+                            class="text-[#43B14B]">Financial Planning</span> for <span class="text-[#7BB6CF]">Special
+                            Needs</span></h1>
+                    <p class="py-6 italic">
+                        Expert-led, affordable courses to help you secure your young person’s future.
+                    </p>
+                    <button class="btn w-full text-white rounded-full bg-[#43B14B]
+                     ">Explore Courses <i class="fa-solid fa-arrow-right ml-8"></i></button>
+                    <button
+                        class="btn w-full mt-2 bg-transparent rounded-full border-2 border-[#7BB6CF] text-[#7BB6CF]">Learn
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Meet Rhiannon Gogh section -->
+    <section class="max-w-6xl mx-auto">
+        <h3 class="font-semibold">About Our Instructor </h3>
+        <h2 class="text-4xl mt-4 font-semibold">Meet Rhiannon Gogh</h2>
+        <div class="mt-16 relative  ">
+            <div class="relative">
+                <img class="mx-auto lg:w-[70%] w-[100%] border-4 border-black rounded-xl mr-10"
+                    src="image/Placeholder Image.svg" alt="">
+            </div>
+            <div
+                class="max-w-sm  text-center lg:text-left -bottom-14 lg:bottom-10 lg:left-96 text-white space-y-4 absolute">
+                <h3 class="lg:text-3xl text-xl font-semibold">An expert in this field, committed to helping families
+                    plan and
+                    prepare for the future</h3>
+                <p class="italic">Learn more about Rhiannon in this short video.</p>
+                <button class="btn border-none   text-white rounded-full bg-[#43B14B]
+                     ">Watch the trailer <i class="fa-solid fa-circle-play text-xl"></i> </button>
+            </div>
+            <div class="absolute hidden lg:flex bottom-10 left-20">
+                <img src="image/sub.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Choose Carer’s Academy? section -->
+    <section class="max-w-6xl mx-auto mt-40">
+        <div class="flex flex-col text-center lg:text-left px-3 lg:flex-row justify-between">
+            <div class=" ">
+                <h2 class="text-xl text-[#43B14B] font-bold">Empowering Families with Expert Guidance</h2>
+                <h1 class="text-4xl font-bold">Why Choose Carer’s Academy?</h1>
+            </div>
+            <p class="max-w-lg">So many parents and carers worry about what will happen to their child when they are
+                gone. It can be all
+                consuming for some, but it needn't be the case. There are ways to plan for the future, let us show you
+                how.</p>
+        </div>
+
+        <!-- cards -->
+        <div class="mt-8 ">
+            <div class="grid relative md:grid-cols-3 gap-2">
+                <!-- card 1 -->
+                <div class="p-4 rounded-xl bg-gradient-to-r  from-[#FFD9424D] to-[#FFFFFF4D]">
+                    <div class="card bg-base-100  shadow-xl">
+                        <figure>
+                            <img src="image/Card image/card 1.svg" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Expert Guidance from a Fellow Parent</h2>
+                            <p>Created by a chartered financial adviser who is also the parent of a special needs child,
+                                offering specialist and trustworthy knowledge</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute right-0 z-30 left-[330px] top-0  ">
+                    <img src="image/love.svg" alt="">
+                </div>
+                <!-- card 2 -->
+                <div class="p-4 rounded-xl bg-[#FFD9424D]">
+                    <div class="card bg-base-100  shadow-xl">
+                        <figure>
+                            <img src="image/Card image/card 2.svg" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Affordable, Transformative Coaching</h2>
+                            <p>Unlock financial planning know-how without the hefty price tag, enabling you to step
+                                forward with confidence</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="p-4 rounded-xl bg-[#FFD9424D]">
+                    <div class="card bg-base-100  shadow-xl">
+                        <figure>
+                            <img src="image/Card image/card 3.svg" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Knowledge, practical processes, tips and support</h2>
+                            <p>Gain practical, actionable strategies from our courses or join webinars to get your
+                                questions answered.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card banner -->
+            <div class=" shadow-xl  bg-gradient-to-r p-5 from-[#FFD9424D] to-[#FFFFFF4D] mt-4">
+                <div class="hero bg-white flex justify-evenly   ">
+                    <div class="hero-content flex-col lg:flex-row">
+                        <img src="image/card banner.svg" class="lg:max-w-sm   rounded-lg shadow-2xl" />
+                        <div class="ml-7">
+                            <h1 class="text-2xl font-bold">Supportive Community</h1>
+                            <p class="py-6">
+                                Join a supportive community of parents and carers who understand your journey. Share
+                                experiences, ask questions, and find encouragement from others facing similar
+                                challenges.
+                            </p>
+                            <button class=" border-2 border-black px-7 p-2 rounded-full bg-[#43B14B]">Join Today <i
+                                    class="fa-solid fa-arrow-right "></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Courses section -->
+    <section class="mt-10 rounded-xl    max-w-6xl mx-auto">
+        <div class="drop-shadow-2xl lg:p-8 p-3  shadow-2xl">
+            <div class="flex flex-col lg:flex-row justify-between">
+                <h1 class="text-4xl  font-semibold">Our Courses</h1>
+                <p class="max-w-md">Explore our courses designed to equip you with the knowledge needed to manage your
+                    finances and secure your child’s future. Level up your planning knowledge, and learn how to protect
+                    your family.</p>
+            </div>
+            <!-- cards -->
+            <div class="grid drop-shadow-2xl md:grid-cols-3 gap-4 mt-4">
+                <!-- card 1 -->
+                <div class="card bg-[#F3F3F3]   ">
+                    <figure>
+                        <img src="image/course section card image/card 1.svg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Wills and Trust for Special Needs</h2>
+                        <p>How can you make sure your SEND child’s future will be secured? How do wills and trusts work
+                            for SEND families and how can you be confident you have the right ...</p>
+                        <button class=" border-2 border-black px-7 p-2 rounded-full bg-[#43B14B]">View Course <i
+                                class="fa-solid fa-arrow-right "></i></button>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card  bg-[#F3F3F3]   ">
+                    <figure>
+                        <img src="image/course section card image/card 2.svg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Transition to Adulthood</h2>
+                        <p>When a young person with SEND turns 18, there are financial challenges to face and decisions
+                            to make which can catch parents by surprise. The transition to....</p>
+                        <button class=" border-2 border-black px-7 p-2 rounded-full bg-[#43B14B]">View Course <i
+                                class="fa-solid fa-arrow-right "></i></button>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card  bg-[#F3F3F3]   ">
+                    <figure>
+                        <img src="image/course section card image/card 3.svg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Protecting Your Family Course</h2>
+                        <p>Life insurance and protection planning is the bedrock of Special Needs Financial Planning,
+                            yet many parent carers don’t understand the types of plans ...</p>
+                        <button class=" border-2 border-black px-7 p-2 rounded-full bg-[#43B14B]">View Course <i
+                                class="fa-solid fa-arrow-right "></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-between items-center mt-4">
+            <div>
+                <img src="image/Slider Buttons.svg" alt="">
+            </div>
+            <div>
+                <img src="image/Slider Dots.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Take Control of Your Child’s Financial Future Today section -->
+    <section class="drop-shadow-2xl mt-20">
+        <div class="hero  ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img src="image/banner 2.svg" class="  rounded-lg  " />
+                <div class="max-w-lg">
+                    <h1 class="text-5xl font-bold">Take Control of Your <span class="text-[#42B14A]">Child’s Financial
+                            Future</span> Today</h1>
+                    <p class="py-6">
+                        Secure Your Child’s Future with Confidence - empower yourself with expert financial guidance
+                        tailored for parents of special needs children.
+                    </p>
+                    <div class="flex items-center gap-3 "><i class="fa-regular fa-circle-check text-[#42B14A]"></i>
+                        <p>Specialist knowledge from an award-winning Chartered Financial Adviser</p>
+                    </div>
+                    <div class="flex mt-3 items-center gap-3 "><i class="fa-regular fa-circle-check text-[#42B14A]"></i>
+                        <p>Lifetime membership to courses,so that you can keep pace with legal, professional and welfare
+                            benefits changes</p>
+                    </div>
+
+                    <div class="mt-3">
+                        <button class="mr-4 border-2 border-black px-7 p-2 rounded-full bg-[#43B14B]">Start Learning <i
+                                class="fa-solid fa-arrow-right "></i></button>
+
+                        <button class="">View All The Course <i class="fa-solid fa-arrow-right "></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs & Articles section -->
+    <section class="max-w-6xl mt-8 mx-auto">
+        <div class="flex flex-col lg:flex-row justify-between items-center">
+            <div class=" text-center lg:text-left mb-3 max-w-lg">
+                <h1 class="text-4xl font-semibold">Blogs & <span class="text-[#43B14B]">Articles</span></h1>
+                <p class="mt-3">Whether you are looking for financial tips, strategies for success or expert insight, we
+                    have something for every parent and carer!</p>
+            </div>
+            <div>
+                <button class="mr-4 border-2 border-black px-7 p-2 rounded-full bg-[#43B14B]">View all articles<i
+                        class="fa-solid fa-arrow-right "></i></button>
+            </div>
+        </div>
+
+        <!-- columns card -->
+        <div class="">
+            <div class="mt-10   space-y-4">
+                <!-- card 1 -->
+                <div class="flex   flex-col lg:flex-row  gap-4">
+                    <div><img src="image/blog & articles card/card 1.svg" alt=""></div>
+                    <div class="space-y-2 max-w-sm">
+                        <button class="border-2 border-black rounded-full px-3 ">Blog</button>
+                        <h3 class="text-xl font-semibold">Financial Planning 101 for Parents of Special Needs Children
+                        </h3>
+                        <p>Navigating the financial landscape as a parent of a special needs child can...</p>
+                        <div class="flex gap-3 mt-2">
+                            <p class="text-[#43B14B] font-bold">Rhiannon Gogh </p>
+                            <p class="text-[#43B14B] font-bold">. 11 July 2024 </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="flex flex-col lg:flex-row  gap-4">
+                    <div><img src="image/blog & articles card/card 2.svg" alt=""></div>
+                    <div class="space-y-2 max-w-sm">
+                        <button class="border-2 border-black rounded-full px-3 ">Tips & Advice</button>
+                        <h3 class="text-xl font-semibold">Top 10 Financial Tips for Securing Your Child’s Future</h3>
+                        <p>Securing your child’s future is a top priority for any parent, especially...</p>
+                        <div class="flex gap-3 mt-2">
+                            <p class="text-[#43B14B] font-bold">Rhiannon Gogh </p>
+                            <p class="text-[#43B14B] font-bold">. 11 July 2024 </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="flex flex-col lg:flex-row justify-between">
+                    <div class="flex flex-col lg:flex-row  gap-4">
+                        <div><img src="image/blog & articles card/card 3.svg" alt=""></div>
+                        <div class="space-y-2 max-w-sm">
+                            <button class="border-2 border-black rounded-full px-3 ">Tips & Advice</button>
+                            <h3 class="text-xl font-semibold">Understanding Government Benefits for Special Needs
+                                Families
+                            </h3>
+                            <p>Government benefits can be a lifeline for families with special needs children.. </p>
+                            <div class="flex gap-3 mt-2">
+                                <p class="text-[#43B14B] font-bold">Rhiannon Gogh </p>
+                                <p class="text-[#43B14B] font-bold">. 11 July 2024 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 22222 -->
+                    <div class=" ">
+                        <div class="space-y-2 max-w-md">
+                            <button class="border-2 border-black rounded-full px-3 ">How to guide</button>
+                            <h3 class="text-xl font-semibold">How to Set Up a Special Needs Trust: A Step-by-Step Guide
+                            </h3>
+                            <p>A Special Needs Trust (SNT) is a crucial tool for parents of children with disabilities,
+                                allowing you to set aside funds for your child’s future without affecting... </p>
+                            <div class="flex gap-3 mt-2">
+                                <p class="text-[#43B14B] font-bold">Rhiannon Gogh </p>
+                                <p class="text-[#43B14B] font-bold">. 11 July 2024 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- texts -->
+    <section class="mt-20 max-w-6xl mx-auto">
+        <div class="border-t-2 border-b-2 border-black p-2">
+            <p>The content provided through our Courses, Content, and on our Website is intended for informational and
+                educational purposes only, and you should not rely on it. We do not provide legal or financial advice or
+                guidance of any kind during the provision of our Courses and Content; therefore, no reliance should be
+                placed upon any related discussions, whether express, implied, or otherwise. Please seek legal and
+                financial advice specific to your circumstances, should you require it at any time. You accept that we
+                do not guarantee any particular result or outcome from downloading or attending our Courses or Content.
+                You are solely responsible for creating and implementing your own choices, actions, and results arising
+                from engaging with our Courses or Content.</p>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="mt-8">
+        <footer class="footer bg-base-200 text-base-content p-10">
+            <nav>
+                <div class="flex items-center gap-2">
+                    <img src="image/logo/Nav logo.svg" alt="">
+                    <p>
+                        <span class="text-xl text-[#43B14B]">Carers</span> <br>
+                        <span class="text-[#7BB6CF]">ACADEMY</span>
+                    </p>
+                </div>
+                <h2 class=" font-bold">Location</h2>
+                <p>Chapter House Martock Road, Long Sutton, Langport, England, TA10 9JS</p>
+                <h4 class="mt-8 font-semibold">Sign up for the newsletter</h4>
+                <div class="join ">
+                    <input type="text" placeholder="Enter your email address..."
+                        class="input  border-black border-2 rounded-full input-bordered join-item" />
+                    <button class=" border-2 join-item border-black px-7 p-2 rounded-full bg-[#43B14B]"> subscribe<i
+                            class="fa-solid fa-arrow-right ml-4 "></i></button>
+                </div>
+                <div class="flex gap-3">
+                    <p class="">By subscribing you agree to with our</p>
+                    <a class="link  link">Privacy Policy</a>
+                </div>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">Courses</a>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Blogs</a>
+                <a class="link link-hover">Contact</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Quick Links</h6>
+                <a class="link link-hover">Webinar</a>
+                <a class="link link-hover">Member Login</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Socials</h6>
+                <a class="link link-hover">Instagram</a>
+                <a class="link link-hover">Facebook</a>
+            </nav>
+        </footer>
+        <div class="flex justify-between px-8">
+            <p>2024 Carer’s Academy. All rights reserved - Web design by Arlie</p>
+            <p> <a class="link  link">Privacy Policy</a> <a class="link  link">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
